@@ -10,6 +10,6 @@ class ntp::service(
     enable     => $service_enable,
     name       => $service_name,
     hasstatus  => $service_hasstatus,
-    hasrestatr => $service_hasrestart,
+    hasrestart => $service_hasrestart,
   }
 }
